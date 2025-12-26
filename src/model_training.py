@@ -39,7 +39,7 @@ class ModelTraining:
         try:
             X_train_array,X_test_array,y_train_array,y_test_array=self.load_data()
             n_users=len(joblib.load(USER2USER_encoded))
-            n_anime=len(joblib.load(ANIME2ANIME_decoded))
+            n_anime=len(joblib.load(ANIME2ANIME_encoded))
             
             
             base_model=BaseModel(config_path=CONFIG_PATH)
@@ -126,8 +126,8 @@ class ModelTraining:
             model.save(MODEL_PATH)
             logger.info(f"Model saved to {MODEL_PATH}")
             
-            user_weights=self.extract_weights('user_embeddding',model)
-            anime_weights=self.extract_weights('anime_embeddings',model)
+            user_weights=self.extract_weights('user_embedding',model)
+            anime_weights=self.extract_weights('anime_embedding',model)
             
             joblib.dump(user_weights,USER_WEIGHTS_PATH)
             joblib.dump(anime_weights,ANIME_WEIGHTS_PATH)

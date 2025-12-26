@@ -24,10 +24,11 @@ RATING_DF=os.path.join(PROCESSED_DIR,"rating_df.csv")
 DF=os.path.join(PROCESSED_DIR,"anime_df.csv")
 SYNOPSIS_DF=os.path.join(PROCESSED_DIR,"synopsis_df.csv")
 
-USER2USER_encoded=os.path.join(PROCESSED_DIR,"user2user_encoded.pkl")
-USER2USER_decoded=os.path.join(PROCESSED_DIR,"user2user_decoded.pkl")
-ANIME2ANIME_encoded=os.path.join(PROCESSED_DIR,"anime2anime_encoded.pkl")
-ANIME2ANIME_decoded=os.path.join(PROCESSED_DIR,"anime2anime_decoded.pkl")
+USER2USER_encoded = "artifacts/processed/user2user_encoded.pkl"
+USER2USER_decoded = "artifacts/processed/user2user_decoded.pkl"
+
+ANIME2ANIME_encoded = "artifacts/processed/anime2anime_encoded.pkl"
+ANIME2ANIME_decoded = "artifacts/processed/anime2anime_decoded.pkl"
 
 
 MODEL_DIR="artifacts/model"
@@ -36,3 +37,5 @@ MODEL_PATH=os.path.join(MODEL_DIR,"model.h5")
 USER_WEIGHTS_PATH=os.path.join(WEIGHTS_DIR,"anime_weights.pkl")
 ANIME_WEIGHTS_PATH=os.path.join(WEIGHTS_DIR,"user_weights.pkl")
 CHECKPOINT_FILEPATH='artifacts/model_checkpoint/weights.weights.h5'
+
+

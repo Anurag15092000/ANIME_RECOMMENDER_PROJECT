@@ -1,0 +1,4 @@
+2025-12-26 18:13:37,101 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-26 18:13:45,903 - INFO - Model Training & COMET ML initialized
+2025-12-26 18:13:48,732 - INFO - Data loaded succesfully for Model Training
+2025-12-26 18:13:48,758 - ERROR - [Errno 2] No such file or directory: 'artifacts/processed/anim2anime_decoded.pkl'
