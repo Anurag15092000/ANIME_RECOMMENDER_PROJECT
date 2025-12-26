@@ -1,0 +1,6 @@
+2025-12-11 03:57:37,424 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-11 03:57:37,424 - INFO - Created directory for raw data at artifacts/raw
+2025-12-11 03:57:37,424 - INFO - Starting data ingestion process
+2025-12-11 03:57:49,489 - ERROR - Error occurred while downloading files from GCP: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-12-11 03:57:49,489 - ERROR - Error in data ingestion run method: Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\data_ingestion.py at line number: 24 with message: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-12-11 03:57:49,490 - INFO - Exiting DataIngestion run method

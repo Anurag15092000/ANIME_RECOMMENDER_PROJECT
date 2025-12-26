@@ -1,0 +1,13 @@
+2025-12-24 03:16:16,151 - INFO - DataProcessing Initiated
+2025-12-24 03:16:16,996 - INFO - Data loaded successfully
+2025-12-24 03:16:17,146 - INFO - Filtered users successfully
+2025-12-24 03:16:18,240 - INFO - Scaling Done successfully
+2025-12-24 03:16:18,394 - INFO - Encoding done for USer and Anime
+2025-12-24 03:16:19,006 - INFO - Train test splitting is done
+2025-12-24 03:16:19,023 - INFO - user2user_encoded saved in processed directory
+2025-12-24 03:16:19,032 - INFO - user2user_decoded saved in processed directory
+2025-12-24 03:16:19,059 - INFO - anime2anime_encoded saved in processed directory
+2025-12-24 03:16:19,111 - INFO - anime2anime_decoded saved in processed directory
+2025-12-24 03:16:23,943 - INFO - Artifacts have been stored successfully
+2025-12-24 03:16:31,121 - INFO - DF and SYNOPSIS saved successfully
+2025-12-24 03:16:31,129 - INFO - Data Processing pipeline run successfully

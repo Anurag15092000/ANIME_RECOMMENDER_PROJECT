@@ -1,0 +1,5 @@
+2025-12-25 20:21:01,185 - INFO - Model Training initialized
+2025-12-25 20:21:01,218 - INFO - Data loaded succesfully for Model Training
+2025-12-25 20:21:01,256 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-25 20:21:01,256 - INFO - Loaded configuration from config.yaml
+2025-12-25 20:21:01,334 - ERROR - Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\base_model.py at line number: 31 with message: Activation.__init__() missing 1 required positional argument: 'activation'

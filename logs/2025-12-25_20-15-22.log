@@ -1,0 +1,2 @@
+2025-12-25 20:15:22,710 - INFO - Model Training initialized
+2025-12-25 20:15:23,221 - ERROR - Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\model_training.py at line number: 21 with message: cannot access local variable 'X_test_array' where it is not associated with a value

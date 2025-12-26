@@ -1,0 +1,5 @@
+2025-12-25 20:18:14,173 - INFO - Model Training initialized
+2025-12-25 20:18:14,225 - INFO - Data loaded succesfully for Model Training
+2025-12-25 20:18:14,256 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-25 20:18:14,256 - INFO - Loaded configuration from config.yaml
+2025-12-25 20:18:14,334 - ERROR - Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\base_model.py at line number: 27 with message: Dot.__init__() missing 1 required positional argument: 'axes'

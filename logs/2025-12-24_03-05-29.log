@@ -1,0 +1,12 @@
+2025-12-24 03:05:29,429 - INFO - DataProcessing Initiated
+2025-12-24 03:05:30,576 - INFO - Data loaded successfully
+2025-12-24 03:05:30,777 - INFO - Filtered users successfully
+2025-12-24 03:05:31,953 - INFO - Scaling Done successfully
+2025-12-24 03:05:32,128 - INFO - Encoding done for USer and Anime
+2025-12-24 03:05:32,840 - INFO - Train test splitting is done
+2025-12-24 03:05:32,852 - INFO - user2user_encoded saved in processed directory
+2025-12-24 03:05:32,864 - INFO - user2user_decoded saved in processed directory
+2025-12-24 03:05:32,891 - INFO - anime2anime_encoded saved in processed directory
+2025-12-24 03:05:32,950 - INFO - anime2anime_decoded saved in processed directory
+2025-12-24 03:05:38,152 - INFO - Artifacts have been stored successfully
+2025-12-24 03:05:38,604 - ERROR - Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\data_processing.py at line number: 127 with message: Usecols do not match columns, columns expected but not found: ['NAME', 'synopsis']

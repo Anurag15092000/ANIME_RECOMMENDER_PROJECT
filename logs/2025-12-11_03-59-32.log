@@ -1,0 +1,8 @@
+2025-12-11 03:59:32,314 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-11 03:59:32,314 - INFO - Created directory for raw data at artifacts/raw
+2025-12-11 03:59:32,315 - INFO - Starting data ingestion process
+2025-12-11 03:59:40,081 - INFO - Downloaded anime.csv from bucket mlops-project-animerecommender to artifacts/raw\anime.csv
+2025-12-11 03:59:45,828 - INFO - Downloaded anime_with_synopsis.csv from bucket mlops-project-animerecommender to artifacts/raw\anime_with_synopsis.csv
+2025-12-11 04:02:41,022 - ERROR - Error occurred while downloading files from GCP: Timeout of 120.0s exceeded, last exception: ('Connection broken: IncompleteRead(139060592 bytes read, 1891997715 more expected)', IncompleteRead(139060592 bytes read, 1891997715 more expected))
+2025-12-11 04:02:41,101 - ERROR - Error in data ingestion run method: Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\data_ingestion.py at line number: 30 with message: Timeout of 120.0s exceeded, last exception: ('Connection broken: IncompleteRead(139060592 bytes read, 1891997715 more expected)', IncompleteRead(139060592 bytes read, 1891997715 more expected))
+2025-12-11 04:02:41,101 - INFO - Exiting DataIngestion run method

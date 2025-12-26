@@ -1,0 +1,5 @@
+2025-12-25 20:19:03,313 - INFO - Model Training initialized
+2025-12-25 20:19:03,344 - INFO - Data loaded succesfully for Model Training
+2025-12-25 20:19:03,380 - INFO - Successfully read YAML file at config/config.yaml
+2025-12-25 20:19:03,380 - INFO - Loaded configuration from config.yaml
+2025-12-25 20:19:03,436 - ERROR - Error occurred in script: E:\Anime_Recommender_system\Project_Details\src\base_model.py at line number: 29 with message: Could not interpret initializer identifier: hee_normal
